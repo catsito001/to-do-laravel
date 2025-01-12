@@ -1,0 +1,61 @@
+@import "bootstrap/scss/bootstrap";
+
+
+// Agrega tus estilos personalizados aquí
+body {
+    background-color: #f8f9fa;
+}
+
+
+
+.list-group-item {
+    margin-bottom: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.btn {
+    min-width: 90px;
+}
+
+.modal-footer .btn {
+    margin-right: 5px;
+}
+
+
+
+
+
+
+
+ /* Asegura que todas las tarjetas tengan la misma altura */
+ .card {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
+
+/* Altura mínima para el cuerpo de la tarjeta */
+.card-body {
+    min-height: 150px; /* Ajusta este valor según sea necesario */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+/* Forzar que las descripciones cortas no afecten el diseño */
+.text-muted {
+    min-height: 50px; /* Ajusta este valor */
+    margin-bottom: 10px;
+}
+
+/* Imagen adaptada */
+.card img {
+    max-height: 200px;
+    object-fit: cover; /* Mantiene la proporción de la imagen */
+}
+
+
+
+
+
